@@ -1,0 +1,143 @@
+.weather {
+     width: 750px;
+     place-self: center;
+     padding: 40px;
+     border-radius: 10px;
+     background-color: #226eac;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+   }
+   
+   .search-bar {
+     display: flex;
+     align-items: center;
+     gap: 12px;
+   }
+   
+   .search-bar input {
+     height: 50px;
+     width: 1200px;
+     border-radius: 40px;
+     padding-left: 15px;
+     background-color: rgb(255, 255, 255);
+     font-size: 18px;
+     border: none;
+     outline: none;
+   }
+
+   .weather-img {
+     height: 900px;  
+     width: 650px;  
+          margin: 10px 5px; 
+     object-fit: contain; 
+   }
+   
+   .temperature {
+     color: white;
+  
+     line-height: 1;
+     margin-left: -5%;
+     width: fit-content;
+   }
+   
+   .location {
+     color: white;
+     font-size: 80px;
+     margin-left: 50px;
+     margin-top: 5%;
+   }
+   
+
+
+   #search{
+    width: 340px;
+   }
+  
+  .weather-details{
+     font-size: 20px;
+     margin-left: -10%;
+     font-weight: bold;
+     color: #88c2f0;
+  }
+  .condition{
+     font-size: 20px;
+     margin-left: -25%;
+     color:  #88c2f0;
+     margin-top: 30px;
+  }
+ .bi-search{
+     background-color:#226eac ;
+ }
+
+
+.search-bar button {
+     background: transparent;
+     border: none;
+     cursor: pointer;
+     padding: 8px;
+     transition: all 0.3s ease;
+     border-radius: 50%;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     color: #ffffff;
+   }
+ 
+   
+   .search-bar button:active {
+     transform: scale(0.95);
+   }
+   
+   .search-bar button svg {
+     height: 44px;
+     width: 24px;
+     transition: all 0.3s ease;
+   }
+   
+   
+
+
+
+
+   
+   /* responsive*/
+   @media (min-width: 400px) {
+     .weather {
+       padding: 20px;
+       width: 450px;
+       height: 800px;
+  
+     }
+     
+     .search-bar input {
+       font-size: 16px;
+       width:200px;
+     }
+     
+     .temperature {
+       font-size: 42px;
+       margin-left: 160px;
+     }
+     .location{
+          font-size: 35px;
+          margin-left: 100px;
+     }
+     .weather-img{
+          width:400px;
+          height:450px;
+         
+     }
+     .weather-details{
+          font-size: 22px;
+          margin-left: 1%;
+          
+       }
+       .condition{
+          font-size: 20px;
+         
+    
+          margin-left: 1%;
+          font-weight: bold;
+       }
+   }
